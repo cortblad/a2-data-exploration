@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
 	
 	<link rel="stylesheet" href="css/main.css">
-	<script src="http://d3js.org/d3.v3.min.js"></script>
-	<script src="js/script.js"></script>
+
+
 	
 </head>
 <body>
+	<h1>A2-DATA-EXPLORATION</h1>
+	<svg width="1010" height="800"></svg>
+
 	<button class="button">SORT</button>
+			<div id="vis"></div>
 
 	<p> 
-		Unfortunately, I wasn't able to build the visualization I wanted, however I will explain in detail what I had hoped
+		I wasn't able to quite build the visualization I wanted, however I will explain in detail what I had hoped
 		to achieve. I chose a data set about student enrollment at UW (Seattle campus) in 2015, which is broken down by 
 		ethnicities. My intended message for this data visualization was to highlight the state of diversity on campus by 
 		showing which minority groups are especially miniscule and which ones are larger by contrast. Also, a layer within the data that is interesting for drawing
@@ -28,11 +38,19 @@
 		<br> 
 		<br>
 		I should also add that I intended to have a "sort" button that breaks up the first pie chart to reveal the second layer of 
-		data that I found interesting. In addition to showing the total populations for ethnic groups, the data set breaks down these totals
+		data. In addition to showing the total populations for ethnic groups, the data set breaks down these totals
 		into male/female representations. Visually, I wanted the first pie chart's slices to drift outwards and each slice would then
 		break into two (one for male numbers, and the other for female). 
+		<br>
+		<br>
+		P.S. I have no idea why some of the labels are hidden behind certain slices! 
 	
 	</p>
+	<br>
+	<br>
 
 </body>
+
+<script src="js/script2.js"></script>
+
 </html>
